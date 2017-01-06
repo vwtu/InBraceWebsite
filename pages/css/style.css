@@ -1,0 +1,247 @@
+html,
+body {
+	height:100%;
+	background-color: white;	
+	overflow-x: hidden;
+}
+body {
+	padding: 0 23%;
+}
+p {
+	color: #6f6f6f;
+	font-size: 0.8vw;
+	line-height: 1.65vw;
+	letter-spacing: 0.05vw;		
+}
+h4 {
+	font-size: 20px;
+	font-size: 1.05vw;
+}
+h3 {
+	font-size: 1.15vw;
+}
+h6 {
+	letter-spacing: 0.165vw;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+	background: url("../img/1.png") no-repeat;
+	background-size: contain;
+	max-width: 100%;
+	display: inline-block;
+}
+#content{
+	padding-bottom: 160px;
+}
+#footer {
+	width: 100%;
+	height: 150px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.header {
+	padding: 0 15px;
+}
+.page-header{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border: none;
+}
+ul.nav>li>button{
+	color: #8c8c8c;
+	font-size: 0.6vw;
+	letter-spacing: 0.055vw;
+	background-color: transparent;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.head-note {
+	padding-top: 12%;
+	padding-left: 7.5%;
+}
+.head-note-big {
+	color: #5c5c5c;
+	font-size: 1.45vw;
+	margin-bottom: 0;
+	letter-spacing: 0.017vw;
+	height: 1.81vw;
+}
+.head-note-small {
+	color: #707070;
+	line-height: 0.8;
+	padding-left: 0.165vw;
+	letter-spacing: 0.048vw;
+	font-size: 0.78vw;
+}
+
+
+.second-section {
+	margin-top: 27%;
+	padding: 9.2% 22% 13.2%;
+	background-color: white;
+}
+.second-section h3 {
+	margin-bottom: 4%;
+	letter-spacing: 0.011vw;
+}
+
+.third-section, .third-section-item {
+	width: 100%;
+	display: table;
+	border-top: solid 1px #f1f1f1;
+	border-bottom: solid 1px #f1f1f1;
+}
+.third-section-left{
+	width: 50%;
+	float: left;
+}
+.third-section-right {
+	width: 50%;
+	float: right;
+}
+.third-section-image {
+	width: 100%;
+	height: 100%;
+}
+.third-section-text {
+	padding: 5.5% 5.2% 0;
+}
+.third-section-text p {
+	margin-top: 20px;
+}
+.third-section-more {
+	float: right;
+}
+.third-section-more h4 {
+	float: left;
+	margin-right: 20px;
+}
+.third-section-more img {
+	margin-top: 5px;
+}
+
+
+.fourth-section {
+	padding: 10%;
+}
+.fourth-section-image {
+	width: 100%;
+}
+
+
+.fifth-section {
+	padding: 10% 25%;
+}
+
+
+.sixth-section {
+	padding: 10% 7%;
+}
+.circle-number {
+	float: left;
+	border-radius: 50%;
+	border: solid 1px #8c8c8c;
+	width: 1.375vw;
+	height: 1.375vw;
+	font-size: 0.77vw;
+	margin-bottom: 100%;
+	margin-top: 10px;
+	text-align: center;
+	margin-right: 5px;
+}
+.sixth-section-image {
+	height: 60px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+.seventh-section {
+	padding: 0 33% 20%;
+}
+.btn-default {
+	height: 50px;
+	width: 100%;
+	line-height: 1.65vw;
+	font-size: 0.77vw
+	border-radius: 3px;
+}
+
+
+.eigth-section {
+	display: inline-block;
+	padding: 0 20px;
+}
+.eigth-section p{
+	float: right;
+	line-height: 1.1vw;
+	letter-spacing: 0;
+	font-size: 0.49vw;
+	margin-bottom: 0;
+}
+
+
+footer{
+	border-top: 1px #cfcdcd solid;
+	padding: 20px 20px;
+}
+footer p {
+	font-size: 0.55vw;
+	float: left;
+}
+footer>div {
+	float: right;
+}
+footer div div {
+	width: 100%;
+}
+footer div div div {
+	float: left;
+	width: 50%;
+}
+
+
+.expanded {
+	margin: 5%;
+	border: solid 2px #f1f1f1;
+	display: inline-block;
+	padding-bottom: 10%;
+}
+div.btn-close {
+	width: 100%;
+	padding: 3%;
+}
+.two-sides {
+	width: 100%;
+}
+.two-sides-left {
+	width: 50%;
+	float: left;
+}
+.two-sides-right {
+	width: 50%;
+	float: right;
+}
+.two-sides-item {
+	padding: 5px 15% 0;
+	border-left: solid 1px #f1f1f1;
+	border-right: solid 1px #f1f1f1;
+	height: 37vh;
+}
+.two-sides-item h4 {
+	margin-top: 10%;
+}
+.two-sides-left h3, .two-sides-right h3 {
+	margin-bottom: 20%;
+}
+.super-image {
+	vertical-align: top;
+}
+hr {
+	border-width: 2px;
+	margin: 0;
+	padding: 0;
+}
