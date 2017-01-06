@@ -8,6 +8,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
   <div id="wrapper">
@@ -23,7 +24,7 @@
               <li><button type="button" class="btn">ABOUT US</button></li>
               <li><button type="button" class="btn">SURVEYS</button></li>
               <li><button type="button" class="btn">LOGIN</button></li>
-              <li><button type="button" class="btn">GET STRATED</button></li>
+              <li><button type="button" class="btn">Get Started</button></li>
             </ul>
           </div>
       </nav>
@@ -75,11 +76,55 @@
             <p>Get the efficacy of traditional braces, with the aesthetics superior to Invisalign in a single product, all in a self-driving personalized device that is made specifically for you and your smile.</p>
             <div class="third-section-more">
               <h4>Learn more</h4>
-              <img src="img/plus.png">
+              <a href="#" onclick="openMore()"><img src="img/plus.png"></a>
             </div>
           </div>
         </div>                        
       </div>
+      <div class="expanded">
+        <div class="btn-close" align="right">
+          <a href="#" onclick="closeMore()"><img src="img/close.png"></a>
+        </div>
+        <div class="two-sides">
+          <div class="two-sides-left">
+            <h3>Braces</h3>
+            <div class="two-sides-item">
+              <div><img src="img/ico1.png"></div>
+              <h4>Uncomfortable</h4>
+              <p>One of the reasons why braces hurt so much is the way they work. They waste a lot of energy intended for moving your teeth, causing you pain.</p>
+            </div>
+            <div class="two-sides-item">
+              <div><img src="img/ico2.png"></div>
+              <h4>Unsightly</h4>
+              <p>Your smile is a big part of our social and professional identity, traditional braces prevent you from being yourself while your teeth straighten.</p>
+            </div>
+            <div class="two-sides-item">
+              <div><img src="img/ico3.png"></div>
+              <h4>Unpredictable</h4>
+              <p>With traditional braces you won't know what your smile will look like until the day the braces come off. With INVRACE's Virtual Smile Simulator you can see your smile before you even start.</p>
+            </div>                        
+          </div>
+          <div class="two-sides-right">
+            <h3>Clear aligners</h3>
+            <div class="two-sides-item">
+              <div><img src="img/ico4.png"><img src="img/ico6.png" class="super-image"></div>
+              <h4>Impractical</h4>
+              <p>You are only allowed 2 hours a day to eat breakfast, lunch, dinner, have a business meeting, drink coffee, enjoy a snack, or share a drink a with friends.</p>
+            </div>
+            <div class="two-sides-item">
+              <div><img src="img/ico5.png"><img src="img/ico6.png" class="super-image"></div>
+              <h4>Inconvenient</h4>
+              <p>You can't wear your aligners while you enjoy your coffee, munch on a snack, have lunch or dinner with friends and family. The average Invisalign user removes their aligners thousands of times each year.</p>
+            </div>
+            <div class="two-sides-item">
+              <div><img src="img/ico7.png"></div>
+              <h4>Inadequate</h4>
+              <p>Most cases recommend the use of permanent attachments on the front of your teeth, hardly invisible. Also did you know that refinements (extended treatment time) are recommended for the majority of Invisalign cases.</p>
+            </div>                        
+          </div>
+        </div>
+      </div>
+      <hr class="hr-more">      
       <div class="fourth-section" align="left">
         <h3>Sound Science + Innovation</h3>
         <br><br>

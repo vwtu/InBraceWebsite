@@ -144,13 +144,12 @@ ul.nav>li>button{
 	float: left;
 	border-radius: 50%;
 	border: solid 1px #8c8c8c;
-	width: 1.375vw;
-	height: 1.375vw;
-	font-size: 0.77vw;
-	margin-bottom: 100%;
-	margin-top: 10px;
+	width: 1.2vw;
+	height: 1.2vw;
+	font-size: 0.7vw;
 	text-align: center;
 	margin-right: 5px;
+	margin-top: 5px;
 }
 .sixth-section-image {
 	height: 60px;
@@ -164,8 +163,10 @@ ul.nav>li>button{
 }
 .btn-default {
 	height: 50px;
-	width: 100%;
-	line-height: 1.65vw;
+	width: 200px;
+	/*line-height: 1.65vw;*/
+	vertical-align: middle;
+	display: table-cell;
 	font-size: 0.77vw
 	border-radius: 3px;
 }
@@ -207,7 +208,7 @@ footer div div div {
 .expanded {
 	margin: 5%;
 	border: solid 2px #f1f1f1;
-	display: inline-block;
+	display: none;
 	padding-bottom: 10%;
 }
 div.btn-close {
@@ -240,8 +241,9 @@ div.btn-close {
 .super-image {
 	vertical-align: top;
 }
-hr {
+.hr-more {
 	border-width: 2px;
 	margin: 0;
 	padding: 0;
+	display: none;
 }
