@@ -5,7 +5,7 @@ body {
 	overflow-x: hidden;
 }
 body {
-	padding: 0 23%;
+	padding: 0;
 }
 p {
 	color: #6f6f6f;
@@ -50,13 +50,12 @@ h6 {
 	padding-bottom: 20px;
 	border: none;
 }
-ul.nav>li>button{
+ul.nav>li>a{
 	color: #8c8c8c;
 	font-size: 0.6vw;
 	letter-spacing: 0.055vw;
 	background-color: transparent;
-	padding-right: 10px;
-	padding-left: 10px;
+	padding: 6px 10px;
 }
 .head-note {
 	padding-top: 12%;
