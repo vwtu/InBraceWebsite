@@ -78,7 +78,7 @@ ul.nav>li>button{
 }
 
 
-.second-section {
+.second-section, .second-section-us, .second-section-join {
 	margin-top: 27%;
 	padding: 9.2% 22% 13.2%;
 	background-color: white;
@@ -158,7 +158,7 @@ ul.nav>li>button{
 }
 
 
-.seventh-section {
+.seventh-section, .seventh-section-join-us {
 	padding: 0 33% 20%;
 }
 .btn-default {
@@ -167,7 +167,7 @@ ul.nav>li>button{
 	/*line-height: 1.65vw;*/
 	vertical-align: middle;
 	display: table-cell;
-	font-size: 0.77vw
+	font-size: 0.9vw;
 	border-radius: 3px;
 }
 
@@ -246,4 +246,87 @@ div.btn-close {
 	margin: 0;
 	padding: 0;
 	display: none;
+}
+
+
+/*About us*/
+.btn-menu {
+	margin-bottom: 3px;
+	height: 11px;
+}
+#wrapper-us {
+	min-height:100%;
+	position:relative;
+	display: inline-block;
+	width: 100%;
+}
+.second-section-us {
+	margin-top: 0;
+	padding-top: 7%;
+}
+.page-header-us {
+	border-bottom: solid 1px #eee;
+	margin: 10px 0 0;
+	padding: 0 0 10px;
+}
+.third-section-us {
+	padding: 7% 15% 10%;
+}
+.us-man {
+	margin-top: 25%;
+	max-width: 100%;
+}
+.man-name {
+	padding-left: 10px;
+}
+
+
+/*Join us*/
+.join-us-img {
+	height: 16px;
+	margin-bottom: 3px;
+}
+.second-section-join {
+	margin-top: 0;
+	padding: 10% 18% 0;
+}
+.second-section-join h4 {
+	letter-spacing: 0.12vw;
+	line-height: 2vw;
+}
+.second-section-join h3 {
+	font-size: 1.3vw;
+}
+
+
+/*Join us 2-1*/
+.seventh-section-join-us {
+	padding-bottom: 5%;
+}
+.form {
+	padding: 0 20% 10%;
+}
+label {
+	color: #959595;
+}
+.form-control {
+	padding: 30px;
+	font-size: 1.5vw;
+}
+.form-group {
+	text-align: left;
+}
+.join-footer {
+	width: 100%;
+	float: left;
+}
+.join-footer div {
+	float: left;
+	width: initial;
+}
+.join-footer h6 {
+	float: right;
+}
+.join-footer div div {
+	padding-right: 20px;
 }
