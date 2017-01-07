@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Progress record uploader</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper-us">
+    <div class="header">
+      <nav class="page-header-us">
+          <div class="navbar-header">
+            <a class="btn" href="#"><img src="img/logo.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar" align="center">
+            <ul class="nav navbar-nav navbar-right">		  
+              <li><a class="btn" href="knowledge-base.html">Knowledge Center</a></li>
+              <li><a class="btn">Progress Records Uploader</a></li> 
+              <li><a class="btn">Logout</a></li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+
+    <div align="center" id="content">
+      <div class="progress-content" align="left">
+        <br><br>
+        <h1>Progress Records Uploader</h1>
+        <p>**Please note that this page is NOT for initial case submission. Initial case submissions should be done through our <a href="#">InBrace Virtual Office (VO) Submission Portal</a>**</p>
+        <p>Early access users are asked to upload progress records for clinical training purposes. As described in the User Guide, please provide the following:</p>
+        <p>Intraoral photographs</p>
+        <ul>
+          <li>At least one progress intra-oral scan is recommended after the initial alignment stage</li>
+          <li>At least one progress panoramic X-Ray is recommended during the early finishing stage</li>
+          <li>Additional progress records per the doctor's discretion</li>
+        </ul>
+        <p>Please ensure to describe the following when uploading patient files:</p>
+        <ol>
+          <li>InBrace Username/Email</li>
+          <li>Patient name</li>
+          <li>Visit date</li>
+          <li>Record Submitted (Progress, Finishing or Bonding Record)</li>
+        </ol>
+        <p>Note: Please wait until all files have completed uploading before leaving the page.</p>
+        <form>
+          <div class="file-upload" align="right">
+            <div>
+              DRAG AND DROP FILES HERE
+              <button class="btn">+ ADD FILES</button>            
+            </div>
+            <a href="http://www.cloudwok.com">www.cloudwok.com</a>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox"> I agree with the <a href="#">Terms of Service</a></label>
+          </div>
+          <div class="form-group">
+            <input type="text" name="username" placeholder="1. InBrace username/email (required)" required="true" class="form-control progress-form">
+          </div>
+          <div class="row">
+            <div class="col-xs-6 form-group">
+              <input type="text" name="name" placeholder="2. Patient Last Name, First name(required)" required="true" class="form-control progress-form">
+            </div>
+            <div class="col-xs-6 form-group">
+              <input type="text" name="record" placeholder="3. Date records were taken" required="true" class="form-control progress-form">
+            </div>          
+          </div>
+          <div class="row">
+            <div class="form-group col-xs-6">
+              <input type="text" name="stage" placeholder="4. Treatment Stage (Progress, Finishing or Bonding Record)" class="form-control progress-form">
+            </div>
+          </div>
+          <div class="submit-div" align="right">
+            <a href="#" class="btn btn-upload">UPLOAD AND SEND</a>  
+          </div>          
+        </form>
+      </div>
+    </div>
+
+    <div id="footer">
+      <footer>
+      	<p>@ 2016 SWIFT HEALTH SYSTEMS &nbsp&nbsp&nbsp&nbsp TERMS & PRIVACY</p>
+        <div>
+          <h6>JOIN US</h6>
+          <div>
+            <div align="center"><img src="img/face.png"></div>
+            <div align="center"><img src="img/twitter.png"></div>            
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
