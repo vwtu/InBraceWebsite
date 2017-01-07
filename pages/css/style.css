@@ -318,6 +318,9 @@ label {
 .submit-button {
 	width: 100%;
 }
+.submit-button .btn-default {
+	width: 200px;
+}
 
 @media screen and (max-width: 720px){
 	.seventh-section, .seventh-section-join-us {
