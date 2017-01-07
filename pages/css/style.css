@@ -1,27 +1,25 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("../font/GothamRounded-Medium.otf");
+    font-weight: bold;
+}
 html,
 body {
 	height:100%;
 	background-color: white;	
 	overflow-x: hidden;
+	font-family: myFirstFont;
 }
 body {
 	padding: 0;
 }
 p {
 	color: #6f6f6f;
-	font-size: 0.8vw;
-	line-height: 1.65vw;
-	letter-spacing: 0.05vw;		
-}
-h4 {
-	font-size: 20px;
-	font-size: 1.05vw;
-}
-h3 {
-	font-size: 1.15vw;
+	line-height: 33px;
+	letter-spacing: 1px;		
 }
 h6 {
-	letter-spacing: 0.165vw;
+	letter-spacing: 3.3px;
 }
 #wrapper {
 	min-height:100%;
@@ -52,8 +50,7 @@ h6 {
 }
 ul.nav>li>a{
 	color: #8c8c8c;
-	font-size: 0.6vw;
-	letter-spacing: 0.055vw;
+	letter-spacing: 1.1px;
 	background-color: transparent;
 	padding: 6px 10px;
 }
@@ -63,17 +60,15 @@ ul.nav>li>a{
 }
 .head-note-big {
 	color: #5c5c5c;
-	font-size: 1.45vw;
 	margin-bottom: 0;
-	letter-spacing: 0.017vw;
-	height: 1.81vw;
+	letter-spacing: 0.35px;
+	height: 36px;
 }
 .head-note-small {
 	color: #707070;
 	line-height: 0.8;
-	padding-left: 0.165vw;
-	letter-spacing: 0.048vw;
-	font-size: 0.78vw;
+	padding-left: 3.3px;
+	letter-spacing: 1px;
 }
 
 
@@ -84,7 +79,7 @@ ul.nav>li>a{
 }
 .second-section h3 {
 	margin-bottom: 4%;
-	letter-spacing: 0.011vw;
+	letter-spacing: 0.2px;
 }
 
 .third-section, .third-section-item {
@@ -143,9 +138,8 @@ ul.nav>li>a{
 	float: left;
 	border-radius: 50%;
 	border: solid 1px #8c8c8c;
-	width: 1.2vw;
-	height: 1.2vw;
-	font-size: 0.7vw;
+	width: 24px;
+	height: 24px;
 	text-align: center;
 	margin-right: 5px;
 	margin-top: 5px;
@@ -162,11 +156,9 @@ ul.nav>li>a{
 }
 .btn-default {
 	height: 50px;
-	width: 200px;
-	/*line-height: 1.65vw;*/
+	width: 100%;
 	vertical-align: middle;
 	display: table-cell;
-	font-size: 0.9vw;
 	border-radius: 3px;
 }
 
@@ -177,9 +169,8 @@ ul.nav>li>a{
 }
 .eigth-section p{
 	float: right;
-	line-height: 1.1vw;
+	line-height: 22px;
 	letter-spacing: 0;
-	font-size: 0.49vw;
 	margin-bottom: 0;
 }
 
@@ -189,7 +180,6 @@ footer{
 	padding: 20px 20px;
 }
 footer p {
-	font-size: 0.55vw;
 	float: left;
 }
 footer>div {
@@ -229,7 +219,6 @@ div.btn-close {
 	padding: 5px 15% 0;
 	border-left: solid 1px #f1f1f1;
 	border-right: solid 1px #f1f1f1;
-	height: 37vh;
 }
 .two-sides-item h4 {
 	margin-top: 10%;
@@ -290,11 +279,8 @@ div.btn-close {
 	padding: 10% 18% 0;
 }
 .second-section-join h4 {
-	letter-spacing: 0.12vw;
-	line-height: 2vw;
-}
-.second-section-join h3 {
-	font-size: 1.3vw;
+	letter-spacing: 2.4px;
+	line-height: 40px;
 }
 
 
@@ -310,7 +296,7 @@ label {
 }
 .form-control {
 	padding: 30px;
-	font-size: 1.5vw;
+	font-size: medium;
 }
 .form-group {
 	text-align: left;
@@ -331,4 +317,10 @@ label {
 }
 .submit-button {
 	width: 100%;
+}
+
+@media screen and (max-width: 720px){
+	.seventh-section, .seventh-section-join-us {
+		padding: 0 10% 20%;
+	}
 }
