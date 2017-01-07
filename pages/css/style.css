@@ -330,3 +330,6 @@ label {
 .join-footer div div {
 	padding-right: 20px;
 }
+.submit-button {
+	width: 100%;
+}
