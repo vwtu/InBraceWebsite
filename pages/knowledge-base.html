@@ -8,12 +8,28 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+  <div id="mySidenav" class="sidenav">
+    <div class="page-header">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <div class="first-menu-style"> 
+      <a class="btn" href="knowledge-base.html">Knowledge Center</a>
+      <a class="btn" href="progress.html">Progress Records Uploader</a>
+      <a class="btn">Logout</a>
+    </div>
+  </div>
   <div id="wrapper-us">
     <div class="header">
       <nav class="page-header-us">
           <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-target="#myNavbar" align="center" onclick="openNav()">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> 
             <a class="btn" href="homepage.html"><img src="img/logo.png"></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar" align="center">
@@ -77,5 +93,6 @@
       </footer>
     </div>
   </div>
+  <div id="cover" onclick="hideMenu()"></div>
 </body>
 </html>

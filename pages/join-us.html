@@ -8,12 +8,31 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+  <div id="mySidenav" class="sidenav">
+    <div class="page-header">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <div class="first-menu-style"> 
+      <a class="btn" href="patient.html">FOR PATIENT</a>
+      <a class="btn" href="provider.html">FOR PROVIDER</a>
+      <a class="btn" href="about-us.html">ABOUT US</a>
+      <a class="btn" href="surveys.html">SURVEYS</a>
+      <a class="btn" href="#" target="_blank">LOGIN</a>
+      <a class="btn" href="join-us.html"><img src="img/btn-menu.png" class="btn-menu"></a>
+    </div>
+  </div>
   <div id="wrapper-us">
     <div class="header">
       <nav class="page-header-us">
           <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-target="#myNavbar" align="center" onclick="openNav()">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button> 
             <a class="btn" href="homepage.html"><img src="img/logo.png"></a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar" align="center">
@@ -60,5 +79,6 @@
       </footer>
     </div>
   </div>
+  <div id="cover" onclick="hideMenu()"></div>
 </body>
 </html>
