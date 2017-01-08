@@ -21,12 +21,10 @@ p {
 h6 {
 	letter-spacing: 3.3px;
 }
-#wrapper, #wrapper-provider, #wrapper-patient {
+#wrapper {
 	min-height:100%;
 	position:relative;
-	background: url("../img/1.png") no-repeat;
-	background-size: contain;
-	max-width: 100%;
+	width: 100%;
 	display: inline-block;
 }
 #content{
@@ -63,15 +61,13 @@ ul.nav>li>a{
 	background-color: transparent;
 	padding: 6px 10px;
 }
-.head-note, .head-note-provider {
-	padding-top: 12%;
-	padding-left: 7.5%;
+.head-note {
+	padding: 12% 7.5% 25%;
 }
 .head-note-big {
 	color: #5c5c5c;
 	margin-bottom: 0;
 	letter-spacing: 0.35px;
-	height: 36px;
 }
 .head-note-small {
 	color: #707070;
@@ -82,7 +78,6 @@ ul.nav>li>a{
 
 
 .second-section, .second-section-us, .second-section-join, .second-section-patient {
-	margin-top: 27%;
 	padding: 9.2% 22% 13.2%;
 	background-color: white;
 }
@@ -251,12 +246,6 @@ div.btn-close {
 	margin-bottom: 3px;
 	height: 11px;
 }
-#wrapper-us {
-	min-height:100%;
-	position:relative;
-	display: inline-block;
-	width: 100%;
-}
 .second-section-us {
 	margin-top: 0;
 	padding-top: 7%;
@@ -268,7 +257,6 @@ div.btn-close {
 	padding: 7% 15% 10%;
 }
 .us-man {
-	margin-top: 25%;
 	max-width: 100%;
 }
 .man-name {
@@ -331,16 +319,11 @@ label {
 
 
 /*For provider final*/
-#wrapper-provider {
-	background: url("../img/pro1.png") no-repeat;
-	background-size: contain;
-}
 .page-header-provider {
 	background-color: #fbfbfb;
 }
 .head-note-provider {
-	float: right;
-	margin-right: 5%;
+	padding: 20% 6%; 
 }
 .head-note-provider h2, .head-note-provider h3 {
 	color: white;
@@ -348,7 +331,6 @@ label {
 	text-align: right;
 }
 .third-section-provider {
-	margin-top: 45%;
 	background-color: white;
 }
 .fourth-section-provider {
@@ -443,13 +425,8 @@ label {
 
 
 /*For patient final*/
-#wrapper-patient {
-	background-image: url("../img/pat1.png");
-	background-size: contain;
-	width: 100%;
-}
 .head-note-patient {
-	padding: 20% 6% 0; 
+	padding: 20% 6%; 
 }
 .head-note-patient h2, .head-note-patient h3 {
 	color: white;
@@ -615,4 +592,7 @@ div#cover{
 		height: 100%;
 		width: 100%;
 	}
+	.head-note-provider h2, .head-note-provider h3 {
+		margin-left: 0;
+	}	
 }
