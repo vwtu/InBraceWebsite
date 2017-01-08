@@ -649,4 +649,10 @@ div#cover{
 	.survey-content {
 		width: 80%;
 	}
+	.two-sides-left, .two-sides-right {
+		width: 100%;
+	}
+	.two-sides-right {
+		margin-top: 80px;
+	}
 }
