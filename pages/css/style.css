@@ -524,6 +524,7 @@ label {
 	background-color: #fff7f8;
 	float: left;
 	padding: 2%;
+	display: inline-table;
 }
 .more-patient {
 	padding: 5%;
