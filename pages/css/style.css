@@ -607,8 +607,12 @@ div#cover{
 		padding: 0 10% 20%;
 	}
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
 	.third-section-left, .third-section-right {
+		width: 100%;
+	}
+	.col-8, .col-9, .col-10, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7 {
+		height: 100%;
 		width: 100%;
 	}
 }
