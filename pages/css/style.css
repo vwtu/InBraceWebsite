@@ -26,8 +26,13 @@ h4 {
 	font-family: gothamMedium;
 	color: #232323;
 }
+h5 {
+	font-size: 15pt;
+	font-family: gothamMedium;
+}
 h6 {
 	font-size: 12pt;
+	font-family: gothamMedium;
 }
 p {
 	font-family: gothamBook;
@@ -36,10 +41,6 @@ p {
 }
 body {
 	padding: 0;
-}
-p {
-	color: #6f6f6f;
-	line-height: 33px;
 }
 #wrapper {
 	min-height:100%;
@@ -72,6 +73,7 @@ p {
 nav.page-header, nav.page-header-us, nav.page-header-provider {
 	position: fixed;
 	width: 100%;
+	background-color: white;
 	opacity: 0.9;
 }
 .page-header, .page-header-provider, .page-header-us {
@@ -101,7 +103,6 @@ ul.nav>li>a:hover {
 }
 .head-note-small {
 	color: #707070;
-	line-height: 0.8;
 	padding-left: 3.3px;
 }
 
@@ -190,8 +191,15 @@ ul.nav>li>a:hover {
 	height: 50px;
 	width: 100%;
 	vertical-align: middle;
-	display: table-cell;
 	border-radius: 3px;
+	font-size: 14pt;
+	line-height: 35px;
+	font-family: gothamMedium;
+	color: #707070;
+}
+.btn-default:hover {
+	background-color: transparent;
+	font-weight: bold;
 }
 
 
