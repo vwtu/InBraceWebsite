@@ -1,6 +1,6 @@
 @font-face {
     font-family: gothamMedium;
-    src: url("../font/GothamRounded-Medium.otf");
+    src: url("../font/Gotham Rounded Medium.otf");
 }
 @font-face {
     font-family: gothamBook;
@@ -37,6 +37,7 @@ h6 {
 p {
 	font-family: gothamBook;
 	font-size: 16pt;
+	line-height: 1.8;
 	color: #707070;
 }
 body {
