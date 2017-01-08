@@ -49,6 +49,10 @@ h6 {
 .header {
 	padding: 0;
 }
+nav.page-header, nav.page-header-us, nav.page-header-provider {
+	position: fixed;
+	width: 100%;
+}
 .page-header, .page-header-provider, .page-header-us {
 	padding-top: 20px;
 	padding-bottom: 20px;
