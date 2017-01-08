@@ -1,14 +1,38 @@
 @font-face {
-    font-family: myFirstFont;
+    font-family: gothamMedium;
     src: url("../font/GothamRounded-Medium.otf");
-    font-weight: bold;
+}
+@font-face {
+    font-family: gothamBook;
+    src: url("../font/GothamRounded-Book.otf");
 }
 html,
 body {
 	height:100%;
 	background-color: white;	
 	overflow-x: hidden;
-	font-family: myFirstFont;
+}
+h2 {
+	font-size: 28pt;
+	font-family: gothamMedium;
+	color: #5c5c5c;
+}
+h3 {
+	font-size: 22pt;
+	font-family: gothamMedium;
+}
+h4 {
+	font-size: 19pt;
+	font-family: gothamMedium;
+	color: #232323;
+}
+h6 {
+	font-size: 12pt;
+}
+p {
+	font-family: gothamBook;
+	font-size: 16pt;
+	color: #707070;
 }
 body {
 	padding: 0;
@@ -16,10 +40,6 @@ body {
 p {
 	color: #6f6f6f;
 	line-height: 33px;
-	letter-spacing: 1px;		
-}
-h6 {
-	letter-spacing: 3.3px;
 }
 #wrapper {
 	min-height:100%;
@@ -52,6 +72,7 @@ h6 {
 nav.page-header, nav.page-header-us, nav.page-header-provider {
 	position: fixed;
 	width: 100%;
+	opacity: 0.9;
 }
 .page-header, .page-header-provider, .page-header-us {
 	padding-top: 20px;
@@ -61,9 +82,15 @@ nav.page-header, nav.page-header-us, nav.page-header-provider {
 }
 ul.nav>li>a{
 	color: #8c8c8c;
-	letter-spacing: 1.1px;
+	font-family: gothamBook;
+	font-size: 11pt;
+	letter-spacing: 1.7pt;
 	background-color: transparent;
 	padding: 6px 10px;
+}
+ul.nav>li>a:hover {
+	font-weight: bold;
+	background-color: transparent;
 }
 .head-note {
 	padding: 12% 7.5% 35%;
@@ -71,13 +98,11 @@ ul.nav>li>a{
 .head-note-big {
 	color: #5c5c5c;
 	margin-bottom: 0;
-	letter-spacing: 0.35px;
 }
 .head-note-small {
 	color: #707070;
 	line-height: 0.8;
 	padding-left: 3.3px;
-	letter-spacing: 1px;
 }
 
 
@@ -87,7 +112,6 @@ ul.nav>li>a{
 }
 .second-section h3 {
 	margin-bottom: 4%;
-	letter-spacing: 0.2px;
 }
 
 .third-section, .third-section-item, .third-section-provider {
@@ -174,12 +198,11 @@ ul.nav>li>a{
 .eigth-section {
 	display: inline-block;
 	padding: 0 20px;
+	width: 100%;
 }
 .eigth-section p{
-	float: right;
-	line-height: 22px;
-	letter-spacing: 0;
 	margin-bottom: 0;
+	font-size: 8pt;
 }
 
 
@@ -193,6 +216,13 @@ footer{
 .social div {
 	width: 50%;
 	float: left;
+}
+footer p, footer li {
+	color: #bfbfbf;
+	font-size: 11pt;
+}
+footer p {
+	line-height: 22px;
 }
 
 .expanded {
@@ -241,7 +271,7 @@ div.btn-close {
 /*About us*/
 .btn-menu {
 	margin-bottom: 3px;
-	height: 11px;
+	height: 13px;
 }
 .second-section-us {
 	margin-top: 0;
@@ -271,7 +301,6 @@ div.btn-close {
 	padding: 10% 18% 0;
 }
 .second-section-join h4 {
-	letter-spacing: 2.4px;
 	line-height: 40px;
 }
 
@@ -350,6 +379,7 @@ label {
 /*Surveys*/
 .survey-content {
 	width: 20%;
+	padding-top: 5%;
 }
 .survey-list {
 	padding: 0;
@@ -592,4 +622,7 @@ div#cover{
 	.head-note-provider h2, .head-note-provider h3 {
 		margin-left: 0;
 	}	
+	.survey-content {
+		width: 80%;
+	}
 }
