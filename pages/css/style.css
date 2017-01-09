@@ -77,6 +77,16 @@ body {
 .header {
 	padding: 0;
 	width: 100%;
+	background-size: cover;
+}
+.header-index {
+	background: url(../img/1.png) no-repeat;
+}
+.header-provider {
+	background: url(../img/pro1.png) no-repeat;
+}
+.header-patient {
+	background: url(../img/pat1.png) no-repeat;
 }
 .navbar-right {
 	margin-right: 20px;
@@ -697,6 +707,15 @@ div#cover{
 	}
 }
 @media screen and (max-width: 480px){
+	body {
+		padding: 0;
+	}
+	.header {
+		background-size: 100% 100%;
+	}
+	nav.page-header, nav.page-header-us, nav.page-header-provider {
+		padding-right: 0;
+	}
 	.third-section-left, .third-section-right {
 		width: 100%;
 	}
