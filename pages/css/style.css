@@ -77,16 +77,18 @@ body {
 .header {
 	padding: 0;
 	width: 100%;
-	background-size: cover;
 }
 .header-index {
 	background: url(../img/1.png) no-repeat;
+	background-size: cover;
 }
 .header-provider {
 	background: url(../img/pro1.png) no-repeat;
+	background-size: cover;
 }
 .header-patient {
 	background: url(../img/pat1.png) no-repeat;
+	background-size: cover;
 }
 .navbar-right {
 	margin-right: 20px;
