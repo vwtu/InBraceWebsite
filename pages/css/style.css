@@ -673,8 +673,24 @@ div#cover{
 #carousel-testimonials .provider-carousel {
 	top: 21em;
 }
-
-
+.carousel {
+	height: 200px;
+}
+@media screen and (max-width: 1280px) {
+	.seventh-section {
+		padding-left: 5%;
+		padding-right: 5%; 
+	}
+	.carousel {
+		height: 250px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.col-8, .col-9, .col-10, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7 {
+		height: 100%;
+		width: 100%;
+	}
+}
 @media screen and (max-width: 720px){
 	.seventh-section, .seventh-section-join-us {
 		padding: 0 10% 20%;
@@ -705,17 +721,8 @@ div#cover{
 	}
 	#carousel-testimonials .provider-carousel {
 		top: 26em;
+	}
+	.carousel {
+		height: 300px;
 	}	
-}
-@media screen and (max-width: 1280px) {
-	.seventh-section {
-		padding-left: 5%;
-		padding-right: 5%; 
-	}
-}
-@media screen and (max-width: 1200px) {
-	.col-8, .col-9, .col-10, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7 {
-		height: 100%;
-		width: 100%;
-	}
 }
