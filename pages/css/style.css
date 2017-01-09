@@ -87,6 +87,7 @@ nav.page-header, nav.page-header-us, nav.page-header-provider {
 	padding-right: 20%;
 	background-color: white;
 	opacity: 0.9;
+	z-index: 1000;
 }
 .page-header, .page-header-provider, .page-header-us {
 	padding-top: 20px;
