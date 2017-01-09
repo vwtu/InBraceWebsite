@@ -76,13 +76,15 @@ body {
 }
 .header {
 	padding: 0;
+	width: 100%;
 }
 .navbar-right {
 	margin-right: 20px;
 }
 nav.page-header, nav.page-header-us, nav.page-header-provider {
-	/*position: fixed;*/
+	position: fixed;
 	width: 100%;
+	padding-right: 20%;
 	background-color: white;
 	opacity: 0.9;
 }
