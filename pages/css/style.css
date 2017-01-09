@@ -31,7 +31,7 @@ h5 {
 	font-family: gothamMedium;
 }
 h6 {
-	font-size: 11pt;
+	font-size: 10	pt;
 	font-family: gothamBook;
 }
 p {
@@ -85,7 +85,6 @@ nav.page-header, nav.page-header-us, nav.page-header-provider {
 	width: 100%;
 	background-color: white;
 	opacity: 0.9;
-	z-index: 1000;
 }
 .page-header, .page-header-provider, .page-header-us {
 	padding-top: 20px;
@@ -103,7 +102,6 @@ ul.nav>li>a{
 }
 ul.nav>li>a:hover {
 	font-weight: bold;
-	font-family: gothamMedium;
 	background-color: transparent;
 }
 .head-note {
@@ -194,23 +192,25 @@ ul.nav>li>a:hover {
 	display: table-cell;
 	vertical-align: middle;
 }
+.sixth-section-image img {
+	height: 100%;
+}
+
 
 .seventh-section, .seventh-section-join-us {
 	padding: 0 33% 20%;
 }
 .btn-default {
-	font-family: gothamBook;
 	height: 50px;
 	width: 100%;
 	vertical-align: middle;
 	border-radius: 3px;
-	border-color: #eeeeee;
 	font-size: 14pt;
 	line-height: 35px;
+	font-family: gothamMedium;
 	color: #707070;
 }
 .btn-default:hover {
-	font-family: gothamMedium;
 	background-color: transparent;
 	font-weight: bold;
 }
@@ -224,13 +224,11 @@ ul.nav>li>a:hover {
 .eigth-section p{
 	margin-bottom: 0;
 	font-size: 8pt;
-	line-height: 2;
-	color: #868686;
 }
 
 
 footer{
-	border-top: 1px #f0f0f0 solid;
+	border-top: 1px #cfcdcd solid;
 	padding: 20px 20px;
 }
 .social {
@@ -243,7 +241,7 @@ footer{
 footer p, footer li {
 	color: #bfbfbf;
 	font-size: 11pt;
-	font-family: gothamBook;
+	font-family: gothamMedium;
 }
 footer p {
 	line-height: 22px;
