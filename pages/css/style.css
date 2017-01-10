@@ -286,9 +286,15 @@ div.btn-close {
 	float: right;
 }
 .two-sides-item {
+	height: 25vw;
 	padding: 5% 15% 0;
 	border-left: solid 1px #f1f1f1;
 	border-right: solid 1px #f1f1f1;
+}
+.two-sides-item div {
+	height: 60px;
+	vertical-align: middle;
+	display: table-cell;
 }
 .two-sides-item h4 {
 	margin-top: 10%;
@@ -688,6 +694,16 @@ div#cover{
 .carousel {
 	height: 200px;
 }
+@media screen and (max-width: 1590px) {
+	.two-sides-item {
+		height: 30vw;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.two-sides-item {
+		height: 40vw;
+	}
+}
 @media screen and (max-width: 1280px) {
 	.seventh-section {
 		padding-left: 5%;
@@ -696,6 +712,14 @@ div#cover{
 	.carousel {
 		height: 250px;
 	}
+	.two-sides-item {
+		height: 50vw;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.two-sides-item {
+		height: 70vw;
+	}
 }
 @media screen and (max-width: 1200px) {
 	.col-8, .col-9, .col-10, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7 {
@@ -703,9 +727,23 @@ div#cover{
 		width: 100%;
 	}
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 870px) {
+	.two-sides-item {
+		height: 80vh;
+	}
+}
+@media screen and (max-width: 770px){
 	.seventh-section, .seventh-section-join-us {
 		padding: 0 10% 20%;
+	}
+	.two-sides-left, .two-sides-right {
+		width: 100%;
+	}
+	.two-sides-right {
+		margin-top: 80px;
+	}
+	.two-sides-item {
+		height: 100%;
 	}
 }
 @media screen and (max-width: 480px){
@@ -730,12 +768,6 @@ div#cover{
 	}	
 	.survey-content {
 		width: 80%;
-	}
-	.two-sides-left, .two-sides-right {
-		width: 100%;
-	}
-	.two-sides-right {
-		margin-top: 80px;
 	}
 	.fourth-section-provider, .fifth-section, .second-section, .fourth-section-provider {
 		padding: 10% 5%;		
