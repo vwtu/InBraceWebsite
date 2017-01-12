@@ -410,6 +410,9 @@ label {
 .fifth-section-provider {
 	padding: 10% 5%;
 }
+.fifth-section-provider .row {
+	margin-top: 10%;
+}
 .last-item {
 	padding: 0 15% 0 20%;
 }
@@ -418,6 +421,11 @@ label {
 }
 .workflow-image {
 	width: 100%;
+}
+.pro3-img {
+	margin-top: 80px;
+	padding: 0 10%;
+	width: 100%; 
 }
 
 
@@ -748,6 +756,10 @@ div#cover{
 	.two-sides-item {
 		height: 100%;
 	}
+	.pro3-img {
+		margin-top: 0;
+		padding: 0;
+	}	
 }
 @media screen and (max-width: 480px){
 	body {
@@ -779,6 +791,6 @@ div#cover{
 		top: 26em;
 	}
 	.carousel {
-		height: 300px;
+		height: 500px;
 	}	
 }
